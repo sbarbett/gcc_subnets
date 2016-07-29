@@ -8,6 +8,11 @@ About
 
 Google uses DNS TXT records to document the subnets ranges for their cloud platform. For more information see [their FAQ](https://cloud.google.com/compute/docs/faq#where_can_i_find_short_product_name_ip_ranges). This client is designed to automatically query all hostnets containing Google subnets and return them in a simple array.
 
+Dependencies
+=============
+
+The client uses dnspython. You can find the latest release at [http://www.dnspython.org/](http://www.dnspython.org/).
+
 Installation
 =============
 
